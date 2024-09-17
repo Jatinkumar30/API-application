@@ -34,7 +34,7 @@ const App: React.FC = () => {
   const [floatingBoxVisible, setFloatingBoxVisible] = useState(false);
   
   // Fixing the ref issue for OverlayPanel
-  const op = useRef<OverlayPanel>(null); // Correct ref initialization
+  // const op = useRef<OverlayPanel>(null); // Correct ref initialization
 
   const fetchArtworks = async (pageNumber: number, rowsPerPage: number) => {
     setLoading(true);
